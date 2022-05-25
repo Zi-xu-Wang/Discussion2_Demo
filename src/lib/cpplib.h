@@ -23,7 +23,8 @@ class CPPLib {
   // NOTE: write your own function declaration Q4 here
 
   // NOTE: write your own function declaration Q5 here
-
+    int FindmaxR(std::vector<int> &input, int left, int right);
+    
   // NOTE: write your own function declaration Q6 here
 
   // Print your self-introduction

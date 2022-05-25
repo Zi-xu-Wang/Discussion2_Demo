@@ -20,6 +20,16 @@ double CPPLib::Findavg(std::vector<int> &input){
     return 0;
 }
 
+
+// Q5
+int CPPLib::FindmaxR(std::vector<int> &input, int left, int right){
+    if(right == left+1){
+        return input[left];
+    }
+    int mid = (left + right ) / 2;
+    return std::max(FindmaxR(input, left, mid), FindmaxR(input, mid, right));
+  }
+
 // Print your self-introduction
 std::string CPPLib::PrintIntro() {
     // Please fill up this function.

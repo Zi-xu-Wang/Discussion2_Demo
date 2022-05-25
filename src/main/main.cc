@@ -6,6 +6,7 @@ int main() {
   // Test for q1
   std::vector<int> input = {1,2,3,4,5};
   std::cout << s.Findmax(input) << std::endl;
+  // std::cout << s.FindmaxR(input, 0, input.size()) << std::endl;
   
   return 0;
 }
