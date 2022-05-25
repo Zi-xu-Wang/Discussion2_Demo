@@ -5,7 +5,14 @@ std::string CPPLib::PrintHelloWorld() { return "**** Hello World ****"; }
 
 // Q1: write your q1 function here
 int CPPLib::Findmax(std::vector<int> &input){
-    return 0;
+    if(input.size() == 0){return 0;}
+    int max = -INT_MAX;
+    for(int i=0; i< input.size();i++){
+        if (input[i] > max){
+            max = input[i];
+        }
+    }
+    return max;
 }
 
 // NOTE: write your own function declaration q2 here
@@ -13,18 +20,7 @@ int CPPLib::Findmax(std::vector<int> &input){
 // Question 5 Print your self-introduction
 std::string CPPLib::PrintIntro() {
     // Please fill up this function.
-    return ""; 
+    return "Hello everyone, welcome to C++!"; 
 }
 
-// Question 6
-std::vector<int> CPPLib::Flatten3DVector(const std::vector< std::vector< std::vector<int> > > &input){
-    // Please fill up this function.
-    std::vector<int> res;
-    return res;
-}
 
-// Question 7 Climbing Stairs
-int CPPLib::climbStairs(int n){
-    // Please fill up this function.
-    return 0;
-}

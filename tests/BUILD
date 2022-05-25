@@ -19,6 +19,15 @@ cc_test(
 )
 
 cc_test(
+    name = "q1_student_test",
+    srcs = ["q1_student_test.cc"],
+    deps = [
+        "//src/lib:CPPLib",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "q2_student_test",
     srcs = ["q2_student_test.cc"],
     deps = [
