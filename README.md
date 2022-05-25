@@ -99,13 +99,13 @@ int CPPLib::Findmax(std::vector<int> &input){
 **To lower case**
 - Example:
 
-  Input: MY NAME IS zixu.
+  Input: MY NAME IS zixu.\
   Output: my name is zixu.
 
 **To upper case**
 - Example:
 
-  Input: my NAME IS zixu.
+  Input: my NAME IS zixu.\
   Output: MY NAME IS ZIXU.
 
 **To title case**
