@@ -5,7 +5,7 @@ int main() {
   // Print Hello world!
   CPPLib s;
   std::vector<int> input = {1,2,3,4,5};
-  std::cout << s.Findmax(input) << std::endl;
+  std::cout << s.Findavg(input) << std::endl;
   
   return 0;
 }
