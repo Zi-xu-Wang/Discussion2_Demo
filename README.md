@@ -15,10 +15,21 @@
 
   Input: [1, 1, 1, 1]
 
-  Output: -1
+  Output: 1
 
 **Solution:** 
-
+```cpp
+int CPPLib::Findmax(std::vector<int> &input){
+    if(input.size() == 0){return 0;}
+    int max = -INT_MAX;
+    for(int i=0; i< input.size();i++){
+        if (input[i] > max){
+            max = input[i];
+        }
+    }
+    return max;
+}
+```
 
 ## Question 2 (20 Points. Medium)
 
