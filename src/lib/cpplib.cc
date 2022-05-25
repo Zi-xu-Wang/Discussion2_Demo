@@ -1,5 +1,6 @@
 #include "cpplib.h"
 #include "limits"
+#include <iostream>
 
 std::string CPPLib::PrintHelloWorld() { return "**** Hello World ****"; }
 
@@ -31,7 +32,14 @@ int CPPLib::FindmaxR(std::vector<int> &input, int left, int right){
 // Print your self-introduction
 std::string CPPLib::PrintIntro() {
     // Please fill up this function.
-    return "Hello everyone, welcome to C++!"; 
+    std::string first, last;
+    std::cout<<"Input first name: "<<std::endl;
+    std::cin>>first;
+    std::cout<<"Input last name: "<< std::endl;
+    std::cin>>last;
+    std::string fullname = first+ " " + last;
+    std::cout<<"My full name is "<<fullname<<std::endl;
+    // return "Hello everyone, welcome to C++!"; 
 }
 
 
