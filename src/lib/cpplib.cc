@@ -23,9 +23,7 @@ double CPPLib::Findavg(std::vector<int> &input){
 
 // Q5
 int CPPLib::FindmaxR(std::vector<int> &input, int left, int right){
-    if(right == left+1){
-        return input[left];
-    }
+    if(right == left+1){return input[left];}
     int mid = (left + right ) / 2;
     return std::max(FindmaxR(input, left, mid), FindmaxR(input, mid, right));
   }
