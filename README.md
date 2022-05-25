@@ -1,21 +1,24 @@
 
-# HW1 EE538 - Computing Principles for Electrical Engineers
+# Discussion2 Demo
 
-- Please clone the repository, edit [README.md](README.md) to answer the questions, and fill up functions to finish the homework.
-- For non-coding questions, fill out the answers below each question. Please write your answer there.
-- For coding questions, please make sure that your code can run ```bazel run/test```. In this homework, you will need to fill up [cpplib.cc](src/lib/cpplib.cc) and tests in [tests](tests). **Do Not change or modify any given function names and input or output formats in both [cpplib.cc](src/lib/cpplib.cc) and tests in [tests](tests). Unexpected changes will result in **zero** credit.**
-- For coding questions, there is a black box test for each question. All points are only based on passing the test cases or not (i.e. we don't grade your work by your source code). So, try to do comprehensive testing before your final submission.
-- For submission, please push your answers to Github before the deadline.
-- Deadline: **Tuesday, Feb 1st by 12 pm**
-- Total: 130 points. 100 points is considered full credit.
+## Question 1 
 
-## Question 1 (10 Points. Easy)
+**Findmax function:**
 
-Create an account on GitHub and Stack Overflow and paste the link to your profile.
+- Example1: 
 
-GitHub profile link:
+  Input: [1, 2, 3, 4, 5]
 
-Stack Overflow profile link:
+  Output: 5
+
+- Example2:
+
+  Input: [1, 1, 1, 1]
+
+  Output: -1
+
+**Solution:** 
+
 
 ## Question 2 (20 Points. Medium)
 

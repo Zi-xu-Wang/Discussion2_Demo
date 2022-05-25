@@ -3,6 +3,11 @@
 
 std::string CPPLib::PrintHelloWorld() { return "**** Hello World ****"; }
 
+// Q1: write your q1 function here
+int CPPLib::Findmax(std::vector<int> &input){
+    return 0;
+}
+
 // NOTE: write your own function declaration q2 here
 
 // Question 5 Print your self-introduction
