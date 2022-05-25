@@ -6,6 +6,6 @@
 #include "gtest/gtest.h"
 
 // Add your own tests in this file
-TEST(Q5_Student, Recursion) {
+TEST(Q3_Student, Findodds) {
   EXPECT_EQ(true, true);
 }

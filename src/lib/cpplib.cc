@@ -15,18 +15,12 @@ int CPPLib::Findmax(std::vector<int> &input){
     return max;
 }
 
-// NOTE: write your own function declaration q2 here
+// NOTE: write your own function q2 here
 double CPPLib::Findavg(std::vector<int> &input){
-    int s = input.size();
-    if(s == 0){return -1;}
-    int res = 0;
-    for(auto i : input){
-        res+=i;
-    }
-    return res/s;
+    return 0;
 }
 
-// Question 5 Print your self-introduction
+// Print your self-introduction
 std::string CPPLib::PrintIntro() {
     // Please fill up this function.
     return "Hello everyone, welcome to C++!"; 

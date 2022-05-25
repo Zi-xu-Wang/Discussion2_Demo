@@ -15,10 +15,17 @@ class CPPLib {
   // Q1:
   int Findmax(std::vector<int> &input);
 
-  // NOTE: write your own function declaration q2 here
+  // Q2:
   double Findavg(std::vector<int> &input);
 
-  
+  // NOTE: write your own function declaration Q3 here
+
+  // NOTE: write your own function declaration Q4 here
+
+  // NOTE: write your own function declaration Q5 here
+
+  // NOTE: write your own function declaration Q6 here
+
   // Print your self-introduction
   std::string PrintIntro();
   
